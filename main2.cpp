@@ -61,16 +61,6 @@ else
     cout << "Invalid E-Mail\n";
 }
 
-    // If found display "Valid E-Mail" otherwise "Invalid E-Mail"
-    // ADD YOUR CODE BELOW //
-
-    // Find the index of the first occurance of String "uprx" in the email
-    cout << email.find("uprx") << endl;
-
-
-    // Starting at index where "uprx" was found, replace "uprx" with "uprm"
-    // ADD YOUR CODE HERE //
-    cout << email.replace(email.find("uprx"), 4, "uprm");
-	// cout << email << endl;
+    
  
 }
